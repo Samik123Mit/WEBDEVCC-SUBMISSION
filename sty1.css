@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lat{
+    color:white;
+background-color: black;
+height:50px;
+width:130px;
+margin:20px 0px 0px 20px  ;
+justify-content: center;
+align-items: center;
+display: flex;}
+
+.home{
+    background-color: black;
+    color:white;
+    height:30px;
+    width:80px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.pop{
+    margin:20px 0px 0px 20px  ;
+    color:black;
+    height:50px;
+width:150px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.tex{
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+.n{
+    font-size: 38px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+.t{
+    font-size: 38px;
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+.h{
+    font-size: 38px;
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+.rest{
+    margin:0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+
+
+}
+.news{
+    font-family: Retroma Vibes, Wilson Wells, Newspaper Cutboy, Novaletra, Addington News, Nook, Freight Sans;
+    display:flex;
+    align-items: center;
+    font-size: 23px;
+}
+.newsbig {position: relative;}
+.nav3 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #DEDEDE;
+   
+}
+#left{
+    display: flex;
+    justify-content: space-between;
+}
+.white1{
+    color:white;
+    position: absolute;
+    bottom:700px;
+    left: 16px;
+    font-size: 20px;
+    width:320px;
+
+}
+.white2{
+    color:white;
+    position: absolute;
+    bottom: 680px;
+    left: 406px;
+    font-size: 20px;
+    width:260px;
+
+}
+.white3{
+    color:white;
+    position: absolute;
+    bottom: 880px;
+    left: 682px;
+    font-size: 18px;
+    width:270px;
+
+}
+.white4{
+    color:white;
+    position: absolute;
+    bottom: 680px;
+    left: 682px;
+    font-size: 20px;
+    width:260px;
+
+}
+.bottom1{
+    color: white !important;
+    background-color: black !important;
+    position: absolute;
+    border-radius: 5px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    bottom: 750px;
+    left: 16px;
+}
+.bottom2 {
+    color: white !important;
+    background-color: black !important;
+    position: absolute;
+    border-radius: 5px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    bottom: 750px;
+    left:120px;
+}
+.bottom3 {
+    color: white !important;
+    background-color: black !important;
+    position: absolute;
+    border-radius: 5px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    bottom: 750px;
+    left:416px;
+
+}.bottom4 {
+    color: white !important;
+    background-color: black !important;
+    position: absolute;
+    border-radius: 5px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    bottom: 750px;
+    left:510px;
+
+}
+.bottom5 {
+    color: white !important;
+    background-color: black !important;
+    position: absolute;
+    border-radius: 5px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    bottom: 930px;
+    left:682px;
+
+}
+.bottom6 {
+    color: white !important;
+    background-color: black !important;
+    position: absolute;
+    border-radius: 5px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    bottom: 930px;
+    left:780px;
+
+}
+.bottom7 {
+    color: white !important;
+    background-color: black !important;
+    position: absolute;
+    border-radius: 5px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    bottom: 730px;
+    left:680px;
+
+}
+.bottom8{
+    color: white !important;
+    background-color: black !important;
+    position: absolute;
+    border-radius: 5px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    bottom: 730px;
+    left:780px;
+
+}
+.last1{
+    position: absolute;
+    display: flex;
+    bottom:660px;
+    left:20px;
+    color: white;
+}
+.last2{
+    position: absolute;
+    bottom:650px;
+    left:420px;
+    color: white;
+}
+.last3{
+    position: absolute;
+    bottom:835px;
+    left:686px;
+    color: white;
+}
+.last4{
+    position: absolute;
+    bottom:645px;
+    left:682px;
+    color: white;
+}
+
+
+
+header{
+    background-color: black;
+    color: white;
+    height:10vh;
+}
+
+
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav3 .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 1rem;
+}
+
+.nav3 .nav-links li {
+    margin: 0 1rem;
+}
+
+.navbar .nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav3 .nav-links a {
+    color: black;
+    text-decoration: none;
+}
+.new{
+    height:60vh;
+    width:30vw;
+    margin:20px 10px 20px 10px ;
+    
+}
+.beauty{
+    height:60vh;
+    width:20vw;
+    margin:20px 10px 20px 0px ;
+}
+.coffee{
+    height:29vh;
+    width:20vw;
+    margin:20px 10px 10px 10px ;
+}
+.nature{
+    height:29vh;
+    width:20vw;
+    margin:7px;
+}
+.newsbig{
+    display: flex;
+}
+.nat{
+    margin: 0;
+}
+
+.s1{
+    height: 11vh;
+    width: 10vw;
+    margin: 15px 0 10px 20px;
+}
+.s2{
+    height: 11vh;
+    width: 10vw;
+    margin: 0px 0 0px 20px;
+}
+.s3{
+    height: 11vh;
+    width: 10vw;
+    margin: 0px 0 0px 20px;
+}
+.s4{
+    height: 11vh;
+    width: 7vw;
+    margin: 0px 0 0px 20px;
+}
+.sm{
+    display: block;
+    overflow:scroll;
+   
+
+}
+.d1{
+    display: flex;
+    
+}
+.d2{
+    display: flex;
+}
+.d3{
+    display: flex;
+}
+.d4{
+    display: flex;
+}
+
+p{  font-size: 13px;
+    margin: 9px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tex{
+    display: block;
+}
+.bla{
+    display: flex;
+}
+
+a:hover{
+    border:1px solid black
+}
+
